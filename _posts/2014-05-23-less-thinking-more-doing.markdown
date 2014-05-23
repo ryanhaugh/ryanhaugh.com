@@ -2,8 +2,8 @@
 layout: post
 title: "Less Thinking, More Doing!"
 date: 2014-05-23 -0800
-comments: false
-categories: []
+comments: true
+categories: [personal]
 ---
 
 Finally, after years of saying I'm going to do it, I've finally started my blog!
