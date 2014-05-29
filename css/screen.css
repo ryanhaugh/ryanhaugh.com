@@ -602,3 +602,6 @@ dt {
 dd {
  margin-left: 7.2em;
 }
+
+.gist { font-size:0.8em; }
+article .entry-content .gist table {margin-top:0; width:100%; }
