@@ -7,7 +7,7 @@
 .csharpcode .preproc { color: #cc6633; }
 .csharpcode .asp { background-color: #ffff00; }
 .csharpcode .html { color: #800000; }
-.csharpcode .attr, .highlight .na { color: #ff0000; }
+.csharpcode .attr, .highlight .na { color: teal; }
 .csharpcode .alt 
 {
 	background-color: #f4f4f4;
@@ -32,8 +32,7 @@ pre code {
   box-shadow: 1px 1px 2px #aaa;
   margin: 10px 0 8px 0;
   padding: 5px 15px;
-  overflow-x: auto;
-  word-wrap: break-word;
+  overflow-x: scroll;
 }
 
 .highlight .m { color: #009999 } /* Literal Number */
