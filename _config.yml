@@ -1,0 +1,41 @@
+#
+# Blog Settings
+#
+author: Ryan Haugh
+description: Randomness & Other Thoughts
+url: http://ryanhaugh.com
+title: Ryan Haugh
+subtitle: Randomness & Other Thoughts
+gravatar_url: https://2.gravatar.com/avatar/b76ee5bafbdf4ca9012c933490878dfa
+subscribe_rss: http://ryanhaugh.com/atom.xml
+
+# Github repositories
+github_user: ryanhaugh
+github_repo_url: https://github.com/ryanhaugh/ryanhaugh.com/
+
+# Twitter
+twitter_user: ryandhaugh
+twitter_tweet_button: true
+
+# Disqus Comments
+disqus_short_name: ryanhaugh
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-51282418-1
+
+
+#
+# Jekyll Settings
+#
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+permalink: /archive/:year/:month/:day/:title/
+paginate: 20
+paginate_path: "page/:num"
+category_dir: categories
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
